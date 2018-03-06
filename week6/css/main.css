@@ -5,13 +5,14 @@ header, footer{
 	background-color: #9C7500; padding: 3% 1% ; content: white;
 }
 section{
-	display: flex;justify-content: space-between;padding: 1%;background-color: yellow;
+	display: flex;justify-content: space-between;padding: 1% 1% 2% 1%;background-color: #F8BE03;
 }
 .block{
 	width: 32%; background-color: white;
+	box-shadow: 5px 5px 15px black; border-radius: 20px 20px 0 0;
 }
 .block img{
-	width: 100%;
+	width: 100%; border-radius: 20px 20px 0 0;
 }
 .block div{
 	padding: 3%;
